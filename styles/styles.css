@@ -1,0 +1,594 @@
+header .container{
+    margin-left: 147px;
+}
+
+.container{
+    width: 1200px;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+span{
+    color: #1A75E8;
+}
+header .container{
+    display: flex;
+    padding-top: 16px;
+}
+
+.logo__header{
+    font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #0F1138;
+}
+
+.svg__header{
+    fill: #1A75E8;
+    margin-left: 0;
+}
+
+.list__header{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+margin-left: 261.53px;
+}
+
+.list__header-item{
+    margin-left: 20px;
+}
+
+.list__header-link{
+     font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #111238;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.list__header-link:hover{
+    color: #1A75E8;
+}
+
+.list__header-item:first-child{
+    margin-left: 0;
+}
+.log-list__header{
+    margin-left: 261px;
+    display: flex;
+    width: 241px;
+    
+}
+
+.login{
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+top: 15px;
+/* Text/Primary */
+height: 10px;
+
+color: #111238;
+}
+
+.log-item__header{
+    margin-left: 40px;
+}
+
+.log-item__header:first-child{
+    margin-left: 0;
+}
+
+.log-item__header:last-child{
+    margin-top: 0;
+}
+
+.login-button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 30px;
+gap: 10px;
+color: aliceblue;
+background: #1A75E8;
+border-radius: 5px;
+border: 1px solid #1A75E8;
+}
+
+.hero-section{
+    margin-top: 90px;
+   
+    display: flex;
+}
+
+.title-div{
+ 
+    width: 460px;
+    padding-top: 80px;
+    display: block;
+}
+
+h1{
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 53px;
+
+/* Text/Primary */
+
+color: #111238;
+
+
+}
+
+.big-svg{
+    margin-left: 100px;
+}
+
+.title-input{
+    position: relative;
+    width: 447px;
+height: 70px;
+background: #FFFFFF;
+border: 1px solid rgba(209, 209, 209, 0.1);
+box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+border-radius: 5px;
+padding-left: 25px;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+margin-top: 30px;
+/* Inputs/Grey */
+
+color: #B2B2B2;
+}
+
+.title-discription{
+    margin-top: 15px;
+}
+
+.title-button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 30px;
+gap: 10px;
+background: #1A75E8;
+border-radius: 5px;
+border: none;
+fill: #FFFFFF;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+position: absolute;
+top: 460px;
+left: 373px;
+}
+
+.priclad-list{
+    display: flex;
+    margin-top: 30px;
+}
+
+.button-list-item{
+    font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #B2B2B2;
+
+
+}
+.list-button{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+
+gap: 10px;
+
+width: 83px;
+height: 27px;
+
+border: 1px solid #B2B2B2;
+border-radius: 5px;
+
+/* Inside auto layout */
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* Inputs/Grey */
+
+color: #B2B2B2;
+
+
+/* Inside auto layout */
+
+
+}
+
+.category-name{
+    font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+/* Text/Primary */
+
+color: #111238;
+}
+.category-section{
+    background: #FFFFFF;
+}
+
+.category-section .container{
+    padding-top: 70px;
+}
+
+.job-div-item{
+    margin-top: 10px;
+}
+
+.job-div-item :first-child{
+    margin-top: 0;
+}
+
+.job-button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 25px;
+gap: 10px;
+width: 113px;
+height: 39px;
+background: #1A75E8;
+border-radius: 5px;
+margin-top: 40px;
+margin-left: 46px;
+border: none;
+color: #FFFFFF;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Inputs/Light */
+
+color: #FFFFFF;
+}
+
+.job-button-list{
+    display: flex;
+}
+
+.job-button-item{
+    ont-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+margin-left: 25px;
+margin-top: 50px;
+color: #B2B2B2;
+
+}
+
+.trbov{
+    font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+margin-top: 50px;
+color: #B2B2B2;
+margin-left: 82px;
+}
+
+.more{
+    font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* Buttons/Primary */
+
+color: #1A75E8;
+margin-left: 186px;
+height: 20px;
+margin-top: 50px;
+}
+
+.jobs-name{
+    margin-bottom: 40px;
+}
+footer{
+    padding-left: 147px;
+}
+
+.category-list{
+    display: flex;
+    margin-top: 40px;
+}
+
+.category-list-item{
+    margin-left: 30px;
+    
+}
+
+.category-list-item:first-child{
+    margin-left: 0;
+    
+}
+
+.category-list-button{
+    width: 166px;
+height: 128px;
+
+/* Buttons/Grey */
+
+background: #F2F3F6;
+border-radius: 10px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+border: none;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Text/Primary */
+ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
+color: #111238;
+}
+
+.category-list-button:hover{
+    background: #1A75E8;
+    color: #F2F3F6;
+    fill: #F2F3F6;
+}
+
+.vacansy-section{
+    background-color: #FFFFFF;
+}
+
+.vacansy-section .container{
+    padding-top: 70px;
+}
+
+.jobs-name{
+    font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+/* Text/Primary */
+
+color: #111238;
+}
+.job-list{
+    display: block;
+}
+
+.jobs-item{
+    display: flex;
+}
+
+.jobs-div{
+    display: flex;
+    border: 1px solid #C5C9D5;
+border-radius: 10px;
+padding-left: 30px;
+height: 160px;
+margin-bottom: 20px;
+width: 1146px;
+padding-top: 30px;
+}
+
+h5{
+    font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+/* Text/Primary */
+
+color: #111238;
+}
+
+.job-div-list{
+    margin-top: 30px;
+margin-left: 20px;
+}
+
+.subgred .container{
+    padding-top: 90px;
+padding-bottom: 100px;
+}
+
+.subgred-title{
+    font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 43px;
+width: 460px;
+text-align: center;
+/* Text/Primary */
+
+color: #111238;
+}
+
+.s-div{
+        padding-left: 343px;
+}
+
+.subgred-discription{
+    font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+margin-top: 20px;
+text-align: center;
+
+/* Text/Primary */
+
+color: #111238;
+width: 460px;
+}
+
+.email{
+    width: 447px;
+height: 70px;
+background: #FFFFFF;
+border: 1px solid rgba(209, 209, 209, 0.1);
+box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+border-radius: 5px;
+padding-left: 25px;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+position: relative;
+/* Inputs/Grey */
+margin-top: 40px;
+color: #B2B2B2;
+
+}
+
+.subgred-button{
+    top: 300px;
+    left:626px;
+    position: absolute;
+    width: 181px;
+height: 49px;
+background: #1A75E8;
+border-radius: 5px;
+border: none;
+display: flex;
+align-items: center;
+gap: 10px;
+padding-left: 30px;
+fill: #FFFFFF;
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+}
+footer{
+    background: #FFFFFf;
+}
+footer .container{
+    display: flex;
+    padding-top: 70px;
+}
+
+.footer-discriftion{
+    font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+/* or 17px */
+
+
+/* Inputs/Grey */
+
+color: #B2B2B2;
+width: 166px;
+height: 34px;
+}
+
+.inc{
+    font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+
+/* Inputs/Grey */
+
+color: #B2B2B2;
+}
+
+.footer-list{
+    display: flex;
+}
+
+.footer-item{
+    display: block;
+    width: 134px;
+    margin-left: 162px;
+}
+
+.dicrp{
+    
+}

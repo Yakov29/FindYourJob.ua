@@ -1,1 +1,1 @@
-# FindYourJob.ua
+# FindYourJob

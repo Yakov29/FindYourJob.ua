@@ -1,0 +1,41 @@
+body{
+    font-family: 'Fira Sans';
+    background: #F2F3F6;
+
+}
+section{
+        padding-left: 147px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+/* Text/Primary */
+
+color: #111238;
+
+
+/* Inside auto layout */
+
+flex: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p{
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
